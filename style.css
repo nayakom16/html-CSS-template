@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --header-font: "Montserrat", sans-serif;
+    --primary-color:#dc775e;
+    --primary-color-dark:#bb654f;
+    --text-dark:#000000;
+    --text-light:#727274;
+    --extra-light:#f3f4f6;
+    --white:#ffffff;
+    --max-width:1600px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.navsection{
+    padding: 0 7rem;
+} */
+
+.section__container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+/* .section__header{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.section__description{
+    margin-bottom: 2rem;
+    color: var(--text-light);
+} */
+
+.btn{
+    max-width: fit-content;
+    padding: .75rem 2.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--header-font);
+    white-space: nowrap;
+    color: var(--white);
+    background-color: var(--text-dark);
+    border-radius: 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: var(--text-dark);
+    background-color: var(--extra-light);
+}
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    z-index: 9;
+}
+
+.nav__header{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--text-dark);
+}
+
+.nav__logo img{
+    max-width: 150px;
+}
+
+.logo-dark{
+    display: none;
+}
+
+.nav__menu__btn{
+    font-size: 1,5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav__links{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--text-dark);
+    transition: .5s;
+    z-index: -1;
+    transform: translateY(-100%);
+}
+
