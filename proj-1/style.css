@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Image.png);
+    background-position: center;
+    background-size: cover;
+    /* padding: 20px 10px; */
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.logo{
+    width:100px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.cart{
+    width:28px;
+    /* height: -10px; */
+    margin-right: 60px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    /* padding: 10px; */
+}
+.nav ul li{
+    /* width: 100px; */
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.nav ul{
+    
+    text-align: center;
+}
+
+.contain{
+    margin-top: 13%;
+    /* padding: 50px; */
+    display: flex;
+    padding-left: 70px;
+    /* padding-right: 60px; */
+    
+}
+.contain h1{
+    width: 600px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    line-height:65px;
+}
+.contain p{
+    color: #fff;
+    max-width: 470px;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+.option{
+    padding-top: 20px;
+}
+
+.btn{
+    border: none;
+    width: 130px;
+    height: 6vh;
+    border-radius: 20px;
+    background: yellow;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.option a{
+    width: 130px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid yellow;
+    margin-left: 20px;
+    padding:  11px 20px;
+    border-radius: 20px;
+    font-style:unset;
+    
+}
+
+.groceryimage{
+    width: 500px;
+    margin-top: -84px;
+    padding-left: 60px;
+}
