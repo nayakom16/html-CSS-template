@@ -106,7 +106,52 @@ header{
 .button2:hover{
     background-color: gray;
 }
+.banner .banner-item{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 
+}
+
+.banner .banner-item img{
+    width: 50vw;
+}
+
+.banner .banner-text{
+    text-align: center;
+    margin: 0 7%;
+}
+
+.banner-text h1{
+    font-size:50px;
+    margin-bottom: 30px;
+}
+
+.banner-text p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.banner-item:last-child .banner-text{
+    color: #fff;
+}
+.banner-item:last-child  .banner-text h1{
+    font-size: 25px;
+}
+
+.banner-item:last-child  .banner-text p{
+    font-size: 20px;
+}
+
+.banner-item:last-child .banner-text a{
+    color: #fff;
+    border: 1px solid white;
+}
+
+.arrow{
+    display: none;
+}
 
 footer{
     margin-top: 30px;
